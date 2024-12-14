@@ -5,5 +5,7 @@
 
 برای وارد شدن و بوکمارک کردن از این ایمیل و پسوورد استفاده کنید:
 
-email: "reza.mahan10@gmail.com"
-password: "12345678",
+{
+  email: "reza.mahan10@gmail.com"
+  password: "12345678",
+}
