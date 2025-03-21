@@ -1,12 +1,12 @@
-import jsonServer from "json-server";
+const jsonServer = require("json-server");
 
 const server = jsonServer.create();
-const router = jsonServer.router("./db.json"); // Adjust path if needed
+const router = jsonServer.router("./db.json"); // ensure path is correct relative to this file
 const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
 server.use(router);
 
-export default (req, res) => {
+module.exports = (req, res) => {
   server(req, res);
 };
