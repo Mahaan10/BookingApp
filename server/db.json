@@ -49,12 +49,7 @@
       "host_neighbourhood": null,
       "host_listings_count": 1,
       "host_total_listings_count": 1,
-      "host_verifications": [
-        "email",
-        "phone",
-        "facebook",
-        "reviews"
-      ],
+      "host_verifications": ["email", "phone", "facebook", "reviews"],
       "street": "Amsterdam, Noord-Holland 1054, Netherlands",
       "neighbourhood": null,
       "neighbourhood_cleansed": "De Baarsjes - Oud-West",
@@ -119,9 +114,7 @@
         "lon": 2.35,
         "lat": 48.86
       },
-      "features": [
-        "Host Has Profile Pic"
-      ]
+      "features": ["Host Has Profile Pic"]
     },
     {
       "id": "9192415",
@@ -312,11 +305,7 @@
       "host_neighbourhood": "Oud-West",
       "host_listings_count": 3,
       "host_total_listings_count": 3,
-      "host_verifications": [
-        "email",
-        "phone",
-        "reviews"
-      ],
+      "host_verifications": ["email", "phone", "reviews"],
       "street": "Oud-West, Amsterdam, North Holland 1054, Netherlands",
       "neighbourhood": "Oud-West",
       "neighbourhood_cleansed": "De Baarsjes - Oud-West",
@@ -385,10 +374,7 @@
         "lon": 4.875639539930118,
         "lat": 52.36456756846072
       },
-      "features": [
-        "Host Has Profile Pic",
-        "Is Location Exact"
-      ]
+      "features": ["Host Has Profile Pic", "Is Location Exact"]
     },
     {
       "id": "13153299",
@@ -709,10 +695,7 @@
       "host_neighbourhood": null,
       "host_listings_count": 1,
       "host_total_listings_count": 1,
-      "host_verifications": [
-        "email",
-        "reviews"
-      ],
+      "host_verifications": ["email", "reviews"],
       "street": "Amsterdam, North Holland, Netherlands",
       "neighbourhood": null,
       "neighbourhood_cleansed": "De Baarsjes - Oud-West",
@@ -782,9 +765,7 @@
         "lon": 4.865594943841575,
         "lat": 52.36667871194905
       },
-      "features": [
-        "Host Has Profile Pic"
-      ]
+      "features": ["Host Has Profile Pic"]
     },
     {
       "id": "13465532",
@@ -933,7 +914,7 @@
       "access": "2 bikes Wifi Cards for public transfer",
       "interaction": "You can contact me any time of the day for information about the house or the city!",
       "house_rules": "-Treat the apartment and neighbours with respect. -No Smoking inside. -No parties/events/invite other people. -Low noise after 23.00 till 9.00. -Please no shoes in the house. (For neighbours and to keep it clean)",
-      "thumbnail_url": "https://a0.muscache.com/im/pictures/440cb88b-6a93-48bc-b87f-78675ea40c60.jpg?aki_policy=small",
+      "thumbnail_url": "https://a0.muscache.com/im/pictures/ab46aaaa-86cf-4459-b702-7042763a7bf4.jpg?im_w=720",
       "medium_url": "https://a0.muscache.com/im/pictures/440cb88b-6a93-48bc-b87f-78675ea40c60.jpg?aki_policy=medium",
       "picture_url": {
         "thumbnail": true,
@@ -966,11 +947,7 @@
       "host_neighbourhood": null,
       "host_listings_count": 0,
       "host_total_listings_count": 0,
-      "host_verifications": [
-        "email",
-        "phone",
-        "reviews"
-      ],
+      "host_verifications": ["email", "phone", "reviews"],
       "street": "Amsterdam, NH 1056, Netherlands",
       "neighbourhood": null,
       "neighbourhood_cleansed": "De Baarsjes - Oud-West",
@@ -1044,9 +1021,7 @@
         "lon": 4.853345068114508,
         "lat": 52.37080138742488
       },
-      "features": [
-        "Host Has Profile Pic"
-      ]
+      "features": ["Host Has Profile Pic"]
     },
     {
       "id": "7890890",
@@ -1097,12 +1072,7 @@
       "host_neighbourhood": "Oud-West",
       "host_listings_count": 1,
       "host_total_listings_count": 1,
-      "host_verifications": [
-        "email",
-        "phone",
-        "reviews",
-        "jumio"
-      ],
+      "host_verifications": ["email", "phone", "reviews", "jumio"],
       "street": "Oud-West, Amsterdam, Noord-Holland 1054, Netherlands",
       "neighbourhood": "Oud-West",
       "neighbourhood_cleansed": "De Baarsjes - Oud-West",
@@ -1203,8 +1173,8 @@
       "access": "As a guest, you have access to the living room, kitchen, bathroom, toilet, laundry room and balcony. Mi casa es su casa.",
       "interaction": "If you need any help during your stay, whether organising your public transport to the airport or finding a great local place to have dinner, I'm happy to help.",
       "house_rules": "No pets allowed, no smoking in the house, but feel free to smoke on the balcony. As I live in a quiet street, this is not a place for partying in the house.",
-      "thumbnail_url": null,
-      "medium_url": null,
+      "thumbnail_url": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1030924721177477140/original/3add0374-8149-4cad-8b5a-d505c773be5f.jpeg?im_w=720",
+      "medium_url": "https://a0.muscache.com/im/pictures/498546fb-5b6f-4523-9d0c-8cd1500fd8e8.jpg?aki_policy=profile_x_medium",
       "picture_url": {
         "thumbnail": true,
         "filename": "f3f1d071-cff4-42af-bfe9-c9c3504a45d6.jpg",
@@ -1236,12 +1206,7 @@
       "host_neighbourhood": "Oud-West",
       "host_listings_count": 2,
       "host_total_listings_count": 2,
-      "host_verifications": [
-        "email",
-        "phone",
-        "reviews",
-        "jumio"
-      ],
+      "host_verifications": ["email", "phone", "reviews", "jumio"],
       "street": "Oud-West, Amsterdam, Noord-Holland 1057, Netherlands",
       "neighbourhood": "Oud-West",
       "neighbourhood_cleansed": "De Baarsjes - Oud-West",
@@ -1363,19 +1328,19 @@
   ],
   "users": [
     {
-      "name" : "Mahan",
+      "name": "Mahan",
       "role": "admin",
       "email": "reza.mahan10@gmail.com",
       "password": "11109178"
     },
     {
-      "name" : "Mahlaqa",
+      "name": "Mahlaqa",
       "role": "co-admin",
       "email": "mahlaqa@gmail.com",
       "password": "123456"
     },
     {
-      "name" : "Mehrana",
+      "name": "Mehrana",
       "role": "co-admin",
       "email": "mehrana@gmail.com",
       "password": "987654"

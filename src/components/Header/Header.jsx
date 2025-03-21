@@ -8,7 +8,6 @@ import "react-date-range/dist/theme/default.css";
 import { DateRange } from "react-date-range";
 import { format } from "date-fns";
 import { createSearchParams, NavLink, useNavigate } from "react-router-dom";
-import { useAuth } from "../context/AuthProvider";
 
 function Header() {
   const [destination, setDestination] = useState("");
@@ -150,7 +149,6 @@ function Header() {
               <HiSearch className="p-1 min-[0px]:max-[555px]:w-11/12" />
             </button>
           </div>
-          <User />
         </div>
       </div>
     </>
@@ -209,29 +207,6 @@ function OptionItem({ options, type, minLimit, optionsHandler }) {
           <BiPlus />
         </button>
       </div>
-    </div>
-  );
-}
-
-function User() {
-  const navigate = useNavigate();
-  const { user, isAuthenticated, logout } = useAuth();
-  const logoutHandler = () => {
-    logout();
-    navigate("/");
-  };
-  return (
-    <div className="">
-      {isAuthenticated ? (
-        <div className="flex items-center gap-1">
-          <span className="font-bold">{user.name}</span>
-          <button className="text-red-700" onClick={logoutHandler}>
-            <BiLogOut className="cursor-pointer" />
-          </button>
-        </div>
-      ) : (
-        <NavLink to="/login">Login</NavLink>
-      )}
     </div>
   );
 }
