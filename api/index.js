@@ -1,7 +1,8 @@
 import jsonServer from "json-server";
 
 const server = jsonServer.create();
-const router = jsonServer.router("db.json");
+// 2nd argument { readOnly: true } ensures no write operations
+const router = jsonServer.router("db.json", { readOnly: true });
 const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
