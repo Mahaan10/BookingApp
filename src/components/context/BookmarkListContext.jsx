@@ -2,7 +2,7 @@ import { createContext, useContext, useEffect, useReducer } from "react";
 import axios from "axios";
 import toast from "react-hot-toast";
 
-const baseUrl = "http://localhost:5000";
+const baseUrl = "/api/hotels";
 const BookmarkContext = createContext();
 
 const initialState = {
@@ -57,7 +57,6 @@ function bookmarkReducer(state, action) {
 }
 
 function BookmarkListProvider({ children }) {
-
   const [{ bookmarks, isLoading, currentBookmark }, dispatch] = useReducer(
     bookmarkReducer,
     initialState
