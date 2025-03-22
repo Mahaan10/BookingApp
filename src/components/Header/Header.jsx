@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import { HiCalendar, HiSearch } from "react-icons/hi";
 import { MdLocationOn } from "react-icons/md";
-import { BiLogOut, BiMinus, BiPlus } from "react-icons/bi";
+import { BiMinus, BiPlus } from "react-icons/bi";
 import useOutsideClick from "../../hooks/useOutsideClick";
 import "react-date-range/dist/styles.css";
 import "react-date-range/dist/theme/default.css";
